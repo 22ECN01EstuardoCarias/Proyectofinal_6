@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas en HTML - Proyecto - EACN</title>
+
+    <center>
+      <h1>Colegio Salesiano Don Bosco <br> De Guatemala - CSDB - <br> IV Bachillerato en CCLL en Diseño Gráfico <br>Catedra Informativa - TICS -<br> </h1>
+   </center>
+
+<hr noshade="5px" size="2px">
+<center>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.5;
+            max-width: 800px;
+            margin:  0 auto;
+            padding: 15px;
+        }
+        h1, h2 {
+            color: #154360;
+        }
+        h3 {
+            font-family: Arial Black;
+        }
+        .tag-container {
+            background-color: #a2eae5;
+            border-left: 2px solid #92b9b7;
+            border-right: 2px solid #92b9b7;
+            border-radius: 4px;
+            padding: 15px;
+            margin-bottom: 23px;
+        }
+        .tag-name {
+            font-weight: bold;
+            color: #e713bd;
+        }
+        .tag-example {
+            background-color: #f0f0f0;
+            padding: 5px;
+            border-radius: 4px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <h2>" Etiquetas y Atributos en HTML "</h2>
+    
+    <div class="tag-container">
+        <h3>' Principales/Básicas '</h3>
+        
+        <p><span class="tag-name">html</span>: Define el documento HTML.<br>
+        <span class="tag-example">&lt;html&gt;..Inicio y Fin..&lt;/html&gt;</span></p>
+        
+        <p><span class="tag-name">head</span>: Contiene metadatos/información del documento.<br>
+        <span class="tag-example">&lt;head&gt;..Encabezados..&lt;/head&gt;</span></p>
+        
+        <p><span class="tag-name">title</span>: Titulo de la página (aparece en la pestaña del navegador).<br>
+        <span class="tag-example">&lt;title&gt;..Pestaña del navegador..&lt;/title&gt;</span></p>
+        
+        <p><span class="tag-name">body</span>: Contiene la información de la página.<br>
+        <span class="tag-example">&lt;body&gt;..Cuerpo de la página web..&lt;/body&gt;</span></p>
+
+        <p><span class="tag-name">h1 a h6</span>: Tamaños de Títulos y Subtítulos de mayor a menor nivel.<br>
+        <span class="tag-example">&lt;h1 a h6&gt;..Títulos/Subtítulos..&lt;/h1 a h6&gt;</span></p>
+
+        <p><span class="tag-name">p</span>: Párrafos o texto.<br>
+        <span class="tag-example">&lt;p&gt;..Textos..&lt;/p&gt;</span></p>
+
+        <p><span class="tag-name">br</span>: Saltos de Línea.<br>
+        <span class="tag-example">&lt;br&gt;..Siguiente línea..&lt;/br&gt;</span></p>
+
+        <p><span class="tag-name">hr</span>: Línea horizontal de separación.<br>
+        <span class="tag-example">&lt;hr&gt;..Una Separación/División..&lt;/hr&gt;</span></p>
+
+        <p><span class="tag-name">a</span>: Hipervínculo.<br>
+        <span class="tag-example">&lt;a&gt;..Hipervínculo..&lt;/a&gt;</span></p>
+
+        <p><span class="tag-name">img</span>: Vínculo pra colocar una Imagen.<br>
+        <span class="tag-example">&lt;img&gt;..Imágenes..&lt;/img&gt;</span></p>
+
+        <p><span class="tag-name">b</span>: Colocar textos en negrita.<br>
+        <span class="tag-example">&lt;b&gt;..Negrita..&lt;/b&gt;</span></p>
+
+        <p><span class="tag-name">i</span>: Colocar textos en cursiva.<br>
+        <span class="tag-example">&lt;i&gt;..Cursiva..&lt;/i&gt;</span></p>
+
+        <p><span class="tag-name">div</span>: Contenedor en bloque sin estilo.<br>
+        <span class="tag-example">&lt;div&gt;..Bloque sin estilo..&lt;/div&gt;</span></p>
+
+        <p><span class="tag-name">Section</span>: Sirve para resumir los elementos en un grupo.<br>
+        <span class="tag-example">&lt;section&gt;..Resume elementos en grupo..&lt;/section&gt;</span></p>
+
+        <p><span class="tag-name">Nav</span>: La sección de navegación de una web.<br>
+        <span class="tag-example">&lt;nav&gt;..Sección de navegación web..&lt;/nav&gt;</span></p>
+
+        <p><span class="tag-name">Span</span>: Contenedor en línea, útil para aplicar estilos.<br>
+        <span class="tag-example">&lt;span style="color:blue;"&gt;Texto&lt;/span&gt;</span></p>
+
+        <p><span class="tag-name">Link</span>: Enlace a recursos externos.<br>
+        <span class="tag-example">&lt;link rel="stylesheet" href="estilos.css"&gt;</span></p>
+    </div>
+    
+    <div class="tag-container">
+        <h3>' Tablas '</h3>
+        
+        <p><span class="tag-name">Table</span>: Creación de una tabla.<br>
+        <span class="tag-example">&lt;table&gt;..Tablas..&lt;/table&gt;</span></p>
+        
+        <p><span class="tag-name">Tr</span>: Respectivamente a la fila de la tabla.<br>
+        <span class="tag-example">&lt;tr&gt;..Fila de tablas..&lt;/tr&gt;</span></p>
+        
+        <p><span class="tag-name">Td</span>: Respectivamente a la celda de datos de la tabla.<br>
+        <span class="tag-example">&lt;td&gt;..Celda de Datos..&lt;/td&gt;</span></p>
+        
+        <p><span class="tag-name">Th o thead</span>: Respectivamente correxponde a la celda del encabezado de la tabla.<br>
+        <span class="tag-example">&lt;th o thead&gt;..Celda de encabezado (negrita y centrada por defecto)..&lt;/th o thead&gt;</span></p>
+        
+        <p><span class="tag-name">Colspan</span>: Atributo para la unión de columnas de la tabla.<br>
+        <span class="tag-example">colspan;..Unión de Columnas..</span></p>
+
+        <p><span class="tag-name">Rowspan</span>: Atributo para la unión de filas de la tabla.<br>
+        <span class="tag-example">rowspan;..Unión de Filas..</span></p>
+
+        <p><span class="tag-name">tfoot</span>: Agrupa el pie de la tabla.<br>
+        <span class="tag-example">&lt;tfoot&gt;..Totales u Observaciones..&lt;/tfoot&gt;</span></p>
+    </div>
+
+    <div class="tag-container">
+        <h3>' Listas '</h3>
+        
+        <p><span class="tag-name">ul</span>: Lista NO ordenada.<br>
+        <span class="tag-example">&lt;ul&gt;..Con Viñetas..&lt;/ul&gt;</span></p>
+        
+        <p><span class="tag-name">ol</span>: Lista ordenada.<br>
+        <span class="tag-example">&lt;ol&gt;..Numerado..&lt;/ol&gt;</span></p>
+        
+        <p><span class="tag-name">li</span>: Elemento de lista<br>
+        <span class="tag-example">&lt;li&gt;..Dentro de ul u ol..&lt;/li&gt;</span></p>
+
+        <p><span class="tag-name">Menu</span>: Antiguamente para listas de menú.<br>
+        <span class="tag-example">&lt;li&gt;..En desuso pero válido..&lt;/li&gt;</span></p>
+
+        <p><span class="tag-name">Article</span>: Puede organizar listas en un arículo independiente.<br>
+        <span class="tag-example">&lt;article&gt;..Listas en artículo independiente..&lt;/article&gt;</span></p>
+
+        <p><span class="tag-name">Type</span>: Atributo que cambia el estilo de numeración o viñeta dentro de ul u ol.<br>
+        <span class="tag-example">Type;..Cambio de estilo de numeración o viñeta..</span></p>
+
+        <p><span class="tag-name">Reversed</span>: Atributo que hace que la lista se muestre en orden descendente.<br>
+        <span class="tag-example">Reversed;..Orden Descendete..</span></p>
+    </div>
+    
+    <div class="tag-container">
+        <h3>' Formularios '</h3>
+        
+        <p><span class="tag-name">Form</span>: Define unformulario para enviar datos.<br>
+        <span class="tag-example">&lt;form action="procesar.php" method="post"&gt;...&lt;/form&gt;</span></p>
+        
+        <p><span class="tag-name">Input</span>: Campo de entrada de datos ( texto, botón, chekbox, etc.).<br>
+        <span class="tag-example">&lt;input type="text" name="nombre"&gt;</span></p>
+        
+        <p><span class="tag-name">Label</span>: Etiqueta descriptiva para un campo del formulario.<br>
+        <span class="tag-example">&lt;label for="nombre"&gt;Nombre:&lt;/label&gt;</span></p>
+        
+        <p><span class="tag-name">Button</span>: Botón para ejecutar acciones.<br>
+        <span class="tag-example">&lt;button type="submit"&gt;Enviar&lt;/button&gt;</span></p>
+
+        <p><span class="tag-name">Textarea</span>: Área de texto de varias líneas.<br>
+        <span class="tag-example">&lt;textarea&gt;..Espacio para vairias líneas..&lt;/textarea&gt;</span></p>
+
+        <p><span class="tag-name">Select</span>: Lista e manera desplegable.<br>
+        <span class="tag-example">&lt;select&gt;..Opción despegable..&lt;/select&gt;</span></p>
+
+        <p><span class="tag-name">Option</span>: Para alguna opción dentro de la etiqueta 'select'.<br>
+        <span class="tag-example">&lt;option&gt;..Opción dentro de ´select..&lt;/option&gt;</span></p>
+
+        <p><span class="tag-name">Meter</span>: Representa un valor dentro de un rango.<br>
+        <span class="tag-example">&lt;meter&gt;..Como para una calificación..&lt;/meter&gt;</span></p>
+
+        <p><span class="tag-name">Progress</span>: Barra de progreso.<br>
+        <span class="tag-example">&lt;progress&gt;..Útil para formularios largos..&lt;/progress&gt;</span></p>
+    </div>
+    
+  <hr noshade="5px" size="2px">
+  <center>
+	  <h4>TICS - 2025 <br>Proyecto - FASE 2<br>Elaborado por EACN</h6>
+	</center>
+</body>
+</html>
